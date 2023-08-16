@@ -10,11 +10,10 @@ void main() {
           title: const Text('I  Am  Rich'),
           backgroundColor: Colors.blueGrey[900],
         ),
-        backgroundColor: Colors.black87,
+        backgroundColor: const Color.fromARGB(255, 110, 109, 109),
         body: const Center(
           child: Image(
-            image: NetworkImage(
-                'https://cdn.luxe.digital/media/20220507121355/most-expensive-diamond-the-sakura-diamond-price-luxe-digital-780x520.jpeg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
